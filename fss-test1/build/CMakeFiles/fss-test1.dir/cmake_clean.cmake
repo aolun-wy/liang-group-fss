@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/fss-test1.dir/fss-test1.cc.o"
+  "CMakeFiles/fss-test1.dir/fss-test1.cc.o.d"
+  "fss-test1"
+  "fss-test1.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/fss-test1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

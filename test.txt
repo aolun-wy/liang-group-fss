@@ -1,2 +1,0 @@
-Test message from VS code to Github.
-This is another message, sent back from Git to terminal # EDIT ON GITHUB
