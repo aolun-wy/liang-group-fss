@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 project(FSS_Test1)
 
 # The package needed, Required, and User Interface (no Visulization for Expanse)
-find_package(Geant4 REQUIRED ui_all)
+find_package(Geant4 REQUIRED ui_all vis_all)
 
 # Include the files in this folder
 include(${Geant4_USE_FILE})
@@ -17,6 +17,11 @@ include_directories(${PROJECT_SOURCE_DIR}/include
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 # Compile the header files
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
+
+# Copy the macro files
+# Find all macro files in macros/
+file(GLOB macros ${PROJECT_SOURCE_DIR}/macros/*.mac)
+file(COPY ${macros} DESTINATION ${PROJECT_BINARY_DIR})
 
 # create the executable file
 add_executable(fss-test1 fss-test1.cc ${sources} ${headers})

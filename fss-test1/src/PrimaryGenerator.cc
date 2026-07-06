@@ -1,6 +1,6 @@
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 //  Partical Gun (source)
-//  Shooting Positrons, with a particle gun fParticleGun
+//  Shooting Gamma rays, with a particle gun fParticleGun
 //
 // NOTE: We CAN'T hand this directly to the main function, we need to define another class
 // i.e. "Action Initialization" to run this.
@@ -24,19 +24,19 @@ PrimaryGenerator::PrimaryGenerator()
     // === The Particle Direction ===
     G4double px = 0. ;
     G4double py = 0. ;
-    G4double pz = 0. ;
+    G4double pz = 1. ; // in z-direction
     
     G4ThreeVector mom(px, py, pz); // The Momentum Three-vector 
     
     // === The Particle Type === 
     G4ParticleTable *particleTable = G4ParticleTable::GetParticleTable();
-    G4ParticleDefinition *particle = particleTable->FindParticle("e+"); // positron
+    G4ParticleDefinition *particle = particleTable->FindParticle("gamma"); // gamma ray
 
 
    // === The Initial Setting of Particle Gun ===
    fParticleGun->SetParticlePosition(pos);          // POSITION
    fParticleGun->SetParticleMomentumDirection(mom); // DIRECTION
-   fParticleGun->SetParticleEnergy(1. * GeV);       // ENERGY (insert your own value)
+   fParticleGun->SetParticleEnergy(1. * MeV);       // ENERGY (insert your own value)
    fParticleGun->SetParticleDefinition(particle);   // TYPE
 }
 

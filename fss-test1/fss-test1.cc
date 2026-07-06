@@ -5,7 +5,9 @@
 #include "G4MTRunManager.hh" // multi-thread mode
 #include "G4UIExecutive.hh" // User Interface
 #include "G4UImanager.hh" // UI Manager
-// No Visualization availiable for Expanse SDSC
+// NOTE: No Visualization availiable for Expanse SDSC
+#include "G4VisManager.hh"
+#include "G4VisExecutive.hh"
 
 // The Header Files
 #include "PhysicsList.hh"
@@ -40,9 +42,14 @@ int main(int argc, char** argv)
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
     // No Visualization availiable for Expanse SDSC
+    G4VisManager *visManager = new G4VisExecutive();
+    visManager->Initialize();
 
     G4UImanager *UImanager = G4UImanager::GetUIpointer();
-    // UIManager is a singleton
+    // UIManager is a singleton, so no "new"
+
+    // Command using .mac file
+    UImanager->ApplyCommand("/control/execute vrml.mac");   
 
     ui->SessionStart(); // will not end session unless you type "exit"
 

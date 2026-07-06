@@ -1,0 +1,12 @@
+# THIS DEFAULT PROGRAM INITIALIZE GEANT4,
+# AND SHOOTS 1000 PARTICLES DEFINED IN THE SOURCE FILES
+
+# Initialization of Geant4
+/run/initialize
+
+# Shoot Beams of Particle
+/run/beamOn 1000
+
+# === Tracking ===
+/tracking/verbose 1
+/run/beamOn 1

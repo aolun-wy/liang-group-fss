@@ -23,6 +23,12 @@
 // System of Units
 #include "G4SystemOfUnits.hh"
 #include "G4UnitsTable.hh"
+// Visualization not availiable for Expanse SDSC
+#include "G4VisAttributes.hh"
+#include "G4Color.hh"
+//sensitive detector
+#include "G4SDManager.hh"
+#include "SensitiveDetector.hh"
 
 
 class DetectorConstruction : public G4VUserDetectorConstruction
@@ -34,6 +40,12 @@ public:
 
     // overide a defination
     virtual G4VPhysicalVolume *Construct();
+
+private:
+    G4LogicalVolume *logicDetector;
+
+    virtual void ConstructSDandField();
+    // sensitive Detector, or EM field we need to consider
 };
 
 

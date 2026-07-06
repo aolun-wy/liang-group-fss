@@ -517,6 +517,121 @@ CMakeFiles/fss-test1.dir/fss-test1.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UIcommandStatus.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VStateDependent.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/icomsdefs.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisManager.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VVisManager.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GraphicsSystemList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VGraphicsSystem.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ModelingParameters.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisExtent.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Point3D.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisAttributes.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/graphics_reps_defs.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Colour.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Color.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisAttributes.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ModelingParameters.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NullModel.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VModel.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VModel.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SceneHandlerList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSceneHandler.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VGraphicsScene.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ViewerList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VViewer.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SceneTreeItem.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AttDef.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TypeKey.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AttValue.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ViewParameters.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Vector3D.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Plane3D.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Plane3D.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VMarker.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VMarker.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ViewParameters.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PhysicalVolumeModel.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PseudoScene.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomTypes.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomConfig.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CSGSolid.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polyhedron.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/HepPolyhedron.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TwoVector.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Normal3D.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Cons.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Cons.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Orb.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Orb.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Para.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Para.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Sphere.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Sphere.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Torus.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Torus.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Trap.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Trap.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Trd.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Trd.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Tubs.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Tubs.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Ellipsoid.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Ellipsoid.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polycone.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VCSGfaceted.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PolyconeSide.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VCSGface.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PolyconeHistorical.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polycone.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polyhedra.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PolyhedraSide.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PolyhedraHistorical.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polyhedra.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TessellatedSolid.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Voxelizer.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SurfBits.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VFacet.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/windefs.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Voxelizer.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VViewer.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4THitsMap.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4THitsCollection.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSceneHandler.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SceneList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Scene.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Scene.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TrajectoriesModel.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisManager.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisExecutive.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisManager.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisExecutive.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4HitFilterFactories.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VFilter.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VModelFactory.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VHit.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4DigiFilterFactories.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VDigi.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TrajectoryFilterFactories.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TrajectoryModelFactories.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VTrajectoryModel.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ASCIITree.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VTree.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4DAWNFILE.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4HepRepFile.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4HepRepFileXMLWriter.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4RayTracer.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VRML2File.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GMocrenFile.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ToolsSGOffscreen.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UImanager.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UIsession.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4coutDestination.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UIbatch.hh \
  /home/awanyan/liang-group-fss/fss-test1/include/PhysicsList.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicsConstructor.hh \
@@ -578,19 +693,6 @@ CMakeFiles/fss-test1.dir/fss-test1.cc.o: \
  /home/awanyan/liang-group-fss/fss-test1/include/DetectorConstruction.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomTypes.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomConfig.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CSGSolid.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polyhedron.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/HepPolyhedron.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TwoVector.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Point3D.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Normal3D.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.icc \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4LogicalVolume.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicalVolume.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PVPlacement.hh \
@@ -604,6 +706,18 @@ CMakeFiles/fss-test1.dir/fss-test1.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisAttributes.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Color.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SDManager.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4HCtable.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SDStructure.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CollectionNameVector.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VReadOutGeometry.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SensitiveVolumeList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSDFilter.hh \
+ /home/awanyan/liang-group-fss/fss-test1/include/SensitiveDetector.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/awanyan/liang-group-fss/fss-test1/include/ActionInitialization.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUserActionInitialization.hh \
  /home/awanyan/liang-group-fss/fss-test1/include/PrimaryGenerator.hh \

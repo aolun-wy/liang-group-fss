@@ -30,7 +30,10 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     // Material of the world
     G4NistManager *nist = G4NistManager::Instance();
     G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR"); // the built-in material, e.g. air
+    G4Material *leadMat = nist->FindOrBuildMaterial("G4_Pb"); // lead 
+    G4Material *detMat = nist->FindOrBuildMaterial("G4_SODIUM_IODIDE"); // NaI
 
+    //....oooOO0OOooo........oooOO0OOooo.... THE AIR BOX ....oooOO0OOooo........oooOO0OOooo......
     // Size of our volume
     G4double xWorld = 1. * m;
     G4double yWorld = 1. * m; 
@@ -57,8 +60,51 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     // Copy Number (may have several physical volume with same logical volume
     // Overlap detection
 
+    //....oooOO0OOooo........oooOO0OOooo.... THE LEAD BOX ....oooOO0OOooo........oooOO0OOooo......
+    G4double leadThickness = 2. * mm;
+    G4double leadSize = 10. * cm;
+
+    G4Box *solidLead = new G4Box("solidLead", 0.5 * leadSize, 0.5 * leadSize, 0.5 * leadThickness);
+
+    G4LogicalVolume *logicLead = new G4LogicalVolume(solidLead, leadMat, "logicLead");
+
+    G4VPhysicalVolume *physLead = new G4PVPlacement(0, G4ThreeVector(0., 0., 5.0 * cm),
+                                                    logicLead, "physLead",
+                                                    logicWorld, false,
+                                                    0,
+                                                    checkOverlaps);
+
+    G4VisAttributes *leadVisAtt = new G4VisAttributes(G4Color(1.0, 0.0, 0.0, 0.5));
+    leadVisAtt->SetForceSolid(true);
+    logicLead->SetVisAttributes(leadVisAtt);
+
+    //....oooOO0OOooo........oooOO0OOooo.... THE DETECTOR ....oooOO0OOooo........oooOO0OOooo......
+    G4double detectorSize = 10.0 * cm;
+    G4Box *solidDetector = new G4Box("solidDetector", 0.5 * detectorSize, 0.5 * detectorSize, 0.5 * detectorSize);
+    
+    logicDetector = new G4LogicalVolume(solidDetector, detMat, "logicDetector");
+
+    G4VPhysicalVolume *physDetector = new G4PVPlacement(0, G4ThreeVector(0. ,0., 10.5 * cm),
+                                                    logicDetector, "physDetector",
+                                                    logicWorld, false,
+                                                    0, checkOverlaps);
+
+    G4VisAttributes *detVisAtt = new G4VisAttributes(G4Color(1.0, 1.0, 0.0, 0.5));
+    detVisAtt->SetForceSolid(true);
+    logicDetector->SetVisAttributes(detVisAtt);
+
     return physWorld;
 
+
+}
+
+void DetectorConstruction::ConstructSDandField()
+{
+    SensitiveDetector *sensDet = new SensitiveDetector("SensitiveDetector");
+    logicDetector->SetSensitiveDetector(sensDet); // Applys this sensitive detector to our detector
+
+    G4SDManager::GetSDMpointer()->AddNewDetector(sensDet);
+    // needed because we want initialization
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

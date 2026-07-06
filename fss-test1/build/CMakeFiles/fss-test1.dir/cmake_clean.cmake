@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/fss-test1.dir/src/Physicslist.cc.o.d"
   "CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o"
   "CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o.d"
+  "CMakeFiles/fss-test1.dir/src/SensitiveDetector.cc.o"
+  "CMakeFiles/fss-test1.dir/src/SensitiveDetector.cc.o.d"
   "fss-test1"
   "fss-test1.pdb"
 )

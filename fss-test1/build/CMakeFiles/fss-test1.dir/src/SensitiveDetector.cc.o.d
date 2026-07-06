@@ -1,8 +1,9 @@
-CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: \
- /home/awanyan/liang-group-fss/fss-test1/src/DetectorConstruction.cc \
+CMakeFiles/fss-test1.dir/src/SensitiveDetector.cc.o: \
+ /home/awanyan/liang-group-fss/fss-test1/src/SensitiveDetector.cc \
  /usr/include/stdc-predef.h \
- /home/awanyan/liang-group-fss/fss-test1/include/DetectorConstruction.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUserDetectorConstruction.hh \
+ /home/awanyan/liang-group-fss/fss-test1/include/SensitiveDetector.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSensitiveDetector.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CollectionNameVector.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/globals.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ios.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Types.hh \
@@ -241,30 +242,19 @@ CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/parse_numbers.h \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/std_mutex.h \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/unique_lock.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomTypes.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomConfig.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CSGSolid.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSolid.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/geomdefs.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4HCofThisEvent.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Allocator.hh \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/cstddef \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AllocatorPool.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VHitsCollection.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Step.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ThreeVector.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Utility/defs.h \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSolid.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polyhedron.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/HepPolyhedron.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TwoVector.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Point3D.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Normal3D.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Transform3D.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicalVolume.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/geomdefs.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4RotationMatrix.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/Rotation.h \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/RotationInterfaces.h \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/LorentzVector.h \
@@ -281,40 +271,57 @@ CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/RotationZ.h \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/RotationZ.icc \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/Rotation.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4LogicalVolume.hh \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/memory \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/stl_raw_storage_iter.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/ranges_uninitialized.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/ext/concurrence.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/shared_ptr.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/shared_ptr_base.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/allocated_ptr.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/shared_ptr_atomic.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/atomic_base.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/atomic_lockfree_defines.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/backward/auto_ptr.h \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/pstl/glue_memory_defs.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Region.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomSplitter.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/geomwdefs.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AutoLock.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Threading.hh \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/condition_variable \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/ext/concurrence.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/shared_ptr.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/shared_ptr_base.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/allocated_ptr.h \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/future \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/thread \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/memory \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/stl_raw_storage_iter.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/ranges_uninitialized.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/shared_ptr_atomic.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/atomic_base.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/atomic_lockfree_defines.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/backward/auto_ptr.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/pstl/glue_memory_defs.h \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/atomic \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/atomic_futex.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Region.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4RotationMatrix.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicalVolume.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4StepPoint.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SteppingControl.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4StepStatus.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TouchableHandle.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VTouchable.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TouchableHistory.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationHistory.hh \
+ /usr/include/assert.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AffineTransform.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Transform3D.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Transform3D.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Transform3D.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Point3D.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Vector3D.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Geometry/Normal3D.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AffineTransform.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevel.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevelRep.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevelRep.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevel.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationHistoryPool.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationHistory.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4LogicalVolume.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Region.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Region.icc \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4LogicalVolume.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicalVolume.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PVPlacement.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TouchableHistory.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Material.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Element.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ElementTable.hh \
@@ -341,52 +348,6 @@ CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4OrderedTable.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4DataVector.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4DataVector.icc \
- /usr/include/assert.h \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NistManager.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ICRU90StoppingData.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Material.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NistElementBuilder.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NistMaterialBuilder.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Pow.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Exp.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SystemOfUnits.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisAttributes.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/graphics_reps_defs.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Colour.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Color.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VisAttributes.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Color.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SDManager.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4HCtable.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SDStructure.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSensitiveDetector.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CollectionNameVector.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4HCofThisEvent.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Allocator.hh \
- /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/cstddef \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AllocatorPool.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VHitsCollection.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Step.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4StepPoint.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SteppingControl.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4StepStatus.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TouchableHandle.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VTouchable.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TouchableHistory.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationHistory.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AffineTransform.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4AffineTransform.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevel.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevelRep.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevelRep.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationLevel.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationHistoryPool.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NavigationHistory.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4LogicalVolume.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TouchableHistory.icc \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ReferenceCountedHandle.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4StepPoint.icc \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TrackVector.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Profiler.hh \
@@ -418,5 +379,6 @@ CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSDFilter.hh \
- /home/awanyan/liang-group-fss/fss-test1/include/SensitiveDetector.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VSensitiveDetector.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SystemOfUnits.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.icc
