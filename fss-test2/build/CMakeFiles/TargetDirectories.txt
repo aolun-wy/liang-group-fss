@@ -1,0 +1,4 @@
+/home/awanyan/liang-group-fss/fss-test2/build/CMakeFiles/rebuild_cache.dir
+/home/awanyan/liang-group-fss/fss-test2/build/CMakeFiles/edit_cache.dir
+/home/awanyan/liang-group-fss/fss-test2/build/CMakeFiles/FSS_Test2.dir
+/home/awanyan/liang-group-fss/fss-test2/build/CMakeFiles/fss-test2.dir

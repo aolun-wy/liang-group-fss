@@ -1,0 +1,16 @@
+This is the second generation construction of the FSS project.
+Single detector, Al layer and plastic layer.
+
+-- Summer Project, 2026, Rice University, Houston TX
+
+
+: VERY USEFUL Commands
+
+1. download the visulization to local computer
+
+scp awanyan@login.expanse.sdsc.edu:/home/awanyan/liang-group-fss/fss-test1/build/g4_02.wrl ~/Downloads/
+
+2. upload to Rice obelix
+
+scp g4_02.wrl aw128@obelix.rice.edu:/home/aw128/Downloads
+
