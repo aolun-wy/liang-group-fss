@@ -166,6 +166,54 @@ fss-test1.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/fss-test1.cc.s
 .PHONY : fss-test1.cc.s
 
+src/DetectorConstruction.o: src/DetectorConstruction.cc.o
+.PHONY : src/DetectorConstruction.o
+
+# target to build an object file
+src/DetectorConstruction.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o
+.PHONY : src/DetectorConstruction.cc.o
+
+src/DetectorConstruction.i: src/DetectorConstruction.cc.i
+.PHONY : src/DetectorConstruction.i
+
+# target to preprocess a source file
+src/DetectorConstruction.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.i
+.PHONY : src/DetectorConstruction.cc.i
+
+src/DetectorConstruction.s: src/DetectorConstruction.cc.s
+.PHONY : src/DetectorConstruction.s
+
+# target to generate assembly for a file
+src/DetectorConstruction.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.s
+.PHONY : src/DetectorConstruction.cc.s
+
+src/Physicslist.o: src/Physicslist.cc.o
+.PHONY : src/Physicslist.o
+
+# target to build an object file
+src/Physicslist.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/Physicslist.cc.o
+.PHONY : src/Physicslist.cc.o
+
+src/Physicslist.i: src/Physicslist.cc.i
+.PHONY : src/Physicslist.i
+
+# target to preprocess a source file
+src/Physicslist.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/Physicslist.cc.i
+.PHONY : src/Physicslist.cc.i
+
+src/Physicslist.s: src/Physicslist.cc.s
+.PHONY : src/Physicslist.s
+
+# target to generate assembly for a file
+src/Physicslist.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/Physicslist.cc.s
+.PHONY : src/Physicslist.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,6 +227,12 @@ help:
 	@echo "... fss-test1.o"
 	@echo "... fss-test1.i"
 	@echo "... fss-test1.s"
+	@echo "... src/DetectorConstruction.o"
+	@echo "... src/DetectorConstruction.i"
+	@echo "... src/DetectorConstruction.s"
+	@echo "... src/Physicslist.o"
+	@echo "... src/Physicslist.i"
+	@echo "... src/Physicslist.s"
 .PHONY : help
 
 

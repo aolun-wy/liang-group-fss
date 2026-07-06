@@ -502,9 +502,76 @@ CMakeFiles/fss-test1.dir/fss-test1.cc.o: \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/list \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/stl_list.h \
  /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/list.tcc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4MTRunManager.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4MTBarrier.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4RNGHelper.hh \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/queue \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/deque \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/stl_deque.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/deque.tcc \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/stl_queue.h \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4RunManager.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UIExecutive.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUIshell.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UImanager.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UIcommandStatus.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VStateDependent.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/icomsdefs.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/icomsdefs.hh \
+ /home/awanyan/liang-group-fss/fss-test1/include/PhysicsList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VModularPhysicsList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicsConstructor.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PhysicsListHelper.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PhysicsListOrderingParameter.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ThreadLocalSingleton.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Cache.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CacheDetails.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Backtrace.hh \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/cxxabi.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/x86_64-pc-linux-gnu/bits/cxxabi_tweaks.h \
+ /usr/include/execinfo.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
+ /usr/include/bits/getopt_core.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/cfenv \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/fenv.h \
+ /usr/include/fenv.h /usr/include/bits/fenv.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/csignal \
+ /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/include/bits/signum-generic.h \
+ /usr/include/bits/types/sig_atomic_t.h \
+ /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
+ /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
+ /usr/include/bits/siginfo-consts-arch.h \
+ /usr/include/bits/types/sigval_t.h /usr/include/bits/types/sigevent_t.h \
+ /usr/include/bits/sigevent-consts.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/types/stack_t.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigstack.h \
+ /usr/include/bits/ss_flags.h /usr/include/bits/types/struct_sigstack.h \
+ /usr/include/bits/sigthread.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/regex \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bitset \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/iterator \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/stream_iterator.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/stack \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/stl_stack.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_constants.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_error.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_automaton.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_automaton.tcc \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_scanner.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_scanner.tcc \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_compiler.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_compiler.tcc \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex.tcc \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_executor.h \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/bits/regex_executor.tcc \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/memory_resource \
+ /cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/include/c++/10.2.0/shared_mutex \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUPLSplitter.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUserPhysicsList.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ProductionCutsTable.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4MaterialCutsCouple.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ProductionCuts.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4MCCIndexConversionTable.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4EmStandardPhysics.hh

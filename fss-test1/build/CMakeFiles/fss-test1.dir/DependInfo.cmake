@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/awanyan/liang-group-fss/fss-test1/fss-test1.cc" "CMakeFiles/fss-test1.dir/fss-test1.cc.o" "gcc" "CMakeFiles/fss-test1.dir/fss-test1.cc.o.d"
+  "/home/awanyan/liang-group-fss/fss-test1/src/DetectorConstruction.cc" "CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o" "gcc" "CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o.d"
+  "/home/awanyan/liang-group-fss/fss-test1/src/Physicslist.cc" "CMakeFiles/fss-test1.dir/src/Physicslist.cc.o" "gcc" "CMakeFiles/fss-test1.dir/src/Physicslist.cc.o.d"
   )
 
 # Targets to which this target links.

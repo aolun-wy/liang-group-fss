@@ -87,7 +87,7 @@ CMakeFiles/FSS_Test1.dir/all: CMakeFiles/fss-test1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FSS_Test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FSS_Test1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles 0
 .PHONY : CMakeFiles/FSS_Test1.dir/rule
@@ -108,12 +108,12 @@ CMakeFiles/FSS_Test1.dir/clean:
 CMakeFiles/fss-test1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=1,2 "Built target fss-test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=1,2,3,4 "Built target fss-test1"
 .PHONY : CMakeFiles/fss-test1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fss-test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fss-test1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles 0
 .PHONY : CMakeFiles/fss-test1.dir/rule

@@ -1,5 +1,5 @@
 # Minimum Version Required
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 3.2 FATAL_ERROR)
 
 # Name of the project
 project(FSS_Test1)
@@ -14,7 +14,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include
                     ${Geant4_INCLUDE_DIR})
 
 # Compile the source files in /src
-file(GLOB source ${PROJECT_SOURCE_DIR}/src/*.cc)
+file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 # Compile the header files
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 
