@@ -9,6 +9,7 @@
 
 // The Header Files
 #include "PhysicsList.hh"
+#include "DetectorConstruction.hh"
 
 // number of argument, and argument vectors (defined as array of strings)
 int main(int argc, char** argv)
@@ -28,6 +29,9 @@ int main(int argc, char** argv)
 
     // Register the Physics List
     runManager->SetUserInitialization(new PhysicsList());
+
+    // Construct the Detector
+    runManager->SetUserInitialization(new DetectorConstruction()); 
 
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
