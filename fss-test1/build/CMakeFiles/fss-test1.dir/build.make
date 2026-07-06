@@ -83,10 +83,24 @@ CMakeFiles/fss-test1.dir/fss-test1.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fss-test1.dir/fss-test1.cc.s"
 	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awanyan/liang-group-fss/fss-test1/fss-test1.cc -o CMakeFiles/fss-test1.dir/fss-test1.cc.s
 
+CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o: CMakeFiles/fss-test1.dir/flags.make
+CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o: ../src/ActionInitialization.cc
+CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o: CMakeFiles/fss-test1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o"
+	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o -MF CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o -c /home/awanyan/liang-group-fss/fss-test1/src/ActionInitialization.cc
+
+CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.i"
+	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awanyan/liang-group-fss/fss-test1/src/ActionInitialization.cc > CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.i
+
+CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.s"
+	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awanyan/liang-group-fss/fss-test1/src/ActionInitialization.cc -o CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.s
+
 CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: CMakeFiles/fss-test1.dir/flags.make
 CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: ../src/DetectorConstruction.cc
 CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o: CMakeFiles/fss-test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o"
 	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o -c /home/awanyan/liang-group-fss/fss-test1/src/DetectorConstruction.cc
 
 CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.s: cmake_force
 CMakeFiles/fss-test1.dir/src/Physicslist.cc.o: CMakeFiles/fss-test1.dir/flags.make
 CMakeFiles/fss-test1.dir/src/Physicslist.cc.o: ../src/Physicslist.cc
 CMakeFiles/fss-test1.dir/src/Physicslist.cc.o: CMakeFiles/fss-test1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fss-test1.dir/src/Physicslist.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fss-test1.dir/src/Physicslist.cc.o"
 	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fss-test1.dir/src/Physicslist.cc.o -MF CMakeFiles/fss-test1.dir/src/Physicslist.cc.o.d -o CMakeFiles/fss-test1.dir/src/Physicslist.cc.o -c /home/awanyan/liang-group-fss/fss-test1/src/Physicslist.cc
 
 CMakeFiles/fss-test1.dir/src/Physicslist.cc.i: cmake_force
@@ -111,18 +125,36 @@ CMakeFiles/fss-test1.dir/src/Physicslist.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fss-test1.dir/src/Physicslist.cc.s"
 	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awanyan/liang-group-fss/fss-test1/src/Physicslist.cc -o CMakeFiles/fss-test1.dir/src/Physicslist.cc.s
 
+CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o: CMakeFiles/fss-test1.dir/flags.make
+CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o: ../src/PrimaryGenerator.cc
+CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o: CMakeFiles/fss-test1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o"
+	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o -MF CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o.d -o CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o -c /home/awanyan/liang-group-fss/fss-test1/src/PrimaryGenerator.cc
+
+CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.i"
+	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/awanyan/liang-group-fss/fss-test1/src/PrimaryGenerator.cc > CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.i
+
+CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.s"
+	/cm/shared/apps/spack/0.17.3/cpu/b/opt/spack/linux-rocky8-zen/gcc-8.5.0/gcc-10.2.0-npcyll4gxjhf4tejksmdzlsl3d3usqpd/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/awanyan/liang-group-fss/fss-test1/src/PrimaryGenerator.cc -o CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.s
+
 # Object files for target fss-test1
 fss__test1_OBJECTS = \
 "CMakeFiles/fss-test1.dir/fss-test1.cc.o" \
+"CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o" \
 "CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o" \
-"CMakeFiles/fss-test1.dir/src/Physicslist.cc.o"
+"CMakeFiles/fss-test1.dir/src/Physicslist.cc.o" \
+"CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o"
 
 # External object files for target fss-test1
 fss__test1_EXTERNAL_OBJECTS =
 
 fss-test1: CMakeFiles/fss-test1.dir/fss-test1.cc.o
+fss-test1: CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o
 fss-test1: CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o
 fss-test1: CMakeFiles/fss-test1.dir/src/Physicslist.cc.o
+fss-test1: CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o
 fss-test1: CMakeFiles/fss-test1.dir/build.make
 fss-test1: /home/awanyan/geant4/geant4-v11.2.2-install/lib64/libG4Tree.so
 fss-test1: /home/awanyan/geant4/geant4-v11.2.2-install/lib64/libG4FR.so
@@ -158,7 +190,7 @@ fss-test1: /home/awanyan/geant4/geant4-v11.2.2-install/lib64/libG4global.so
 fss-test1: /home/awanyan/geant4/geant4-v11.2.2-install/lib64/libG4clhep.so
 fss-test1: /home/awanyan/geant4/geant4-v11.2.2-install/lib64/libG4ptl.so.2.3.3
 fss-test1: CMakeFiles/fss-test1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable fss-test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/awanyan/liang-group-fss/fss-test1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable fss-test1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fss-test1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

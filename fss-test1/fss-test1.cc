@@ -10,6 +10,7 @@
 // The Header Files
 #include "PhysicsList.hh"
 #include "DetectorConstruction.hh"
+#include "ActionInitialization.hh"
 
 // number of argument, and argument vectors (defined as array of strings)
 int main(int argc, char** argv)
@@ -33,6 +34,8 @@ int main(int argc, char** argv)
     // Construct the Detector
     runManager->SetUserInitialization(new DetectorConstruction()); 
 
+    // Shoot the Particle (via Action Initialization)
+    runManager->SetUserInitialization(new ActionInitialization());     
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 

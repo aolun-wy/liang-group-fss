@@ -603,4 +603,12 @@ CMakeFiles/fss-test1.dir/fss-test1.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Exp.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SystemOfUnits.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.icc
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.icc \
+ /home/awanyan/liang-group-fss/fss-test1/include/ActionInitialization.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUserActionInitialization.hh \
+ /home/awanyan/liang-group-fss/fss-test1/include/PrimaryGenerator.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ParticleDefinition.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ParticleGun.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPrimaryGenerator.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ParticleTable.hh

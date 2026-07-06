@@ -631,6 +631,35 @@ CMakeFiles/fss-test1.dir/fss-test1.cc.o
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ProductionCuts.hh
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4MCCIndexConversionTable.hh
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4EmStandardPhysics.hh
+ /home/awanyan/liang-group-fss/fss-test1/include/DetectorConstruction.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VUserDetectorConstruction.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomTypes.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GeomConfig.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4CSGSolid.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Polyhedron.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/HepPolyhedron.h
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4TwoVector.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.h
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/CLHEP/Vector/TwoVector.icc
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Point3D.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Normal3D.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Visible.icc
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Box.icc
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4LogicalVolume.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPhysicalVolume.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4PVPlacement.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Material.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NistManager.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ICRU90StoppingData.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NistElementBuilder.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4NistMaterialBuilder.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Pow.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Exp.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4SystemOfUnits.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.icc
 
 CMakeFiles/fss-test1.dir/src/DetectorConstruction.cc.o
  /home/awanyan/liang-group-fss/fss-test1/src/DetectorConstruction.cc

@@ -166,6 +166,30 @@ fss-test1.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/fss-test1.cc.s
 .PHONY : fss-test1.cc.s
 
+src/ActionInitialization.o: src/ActionInitialization.cc.o
+.PHONY : src/ActionInitialization.o
+
+# target to build an object file
+src/ActionInitialization.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.o
+.PHONY : src/ActionInitialization.cc.o
+
+src/ActionInitialization.i: src/ActionInitialization.cc.i
+.PHONY : src/ActionInitialization.i
+
+# target to preprocess a source file
+src/ActionInitialization.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.i
+.PHONY : src/ActionInitialization.cc.i
+
+src/ActionInitialization.s: src/ActionInitialization.cc.s
+.PHONY : src/ActionInitialization.s
+
+# target to generate assembly for a file
+src/ActionInitialization.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/ActionInitialization.cc.s
+.PHONY : src/ActionInitialization.cc.s
+
 src/DetectorConstruction.o: src/DetectorConstruction.cc.o
 .PHONY : src/DetectorConstruction.o
 
@@ -214,6 +238,30 @@ src/Physicslist.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/Physicslist.cc.s
 .PHONY : src/Physicslist.cc.s
 
+src/PrimaryGenerator.o: src/PrimaryGenerator.cc.o
+.PHONY : src/PrimaryGenerator.o
+
+# target to build an object file
+src/PrimaryGenerator.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.o
+.PHONY : src/PrimaryGenerator.cc.o
+
+src/PrimaryGenerator.i: src/PrimaryGenerator.cc.i
+.PHONY : src/PrimaryGenerator.i
+
+# target to preprocess a source file
+src/PrimaryGenerator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.i
+.PHONY : src/PrimaryGenerator.cc.i
+
+src/PrimaryGenerator.s: src/PrimaryGenerator.cc.s
+.PHONY : src/PrimaryGenerator.s
+
+# target to generate assembly for a file
+src/PrimaryGenerator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fss-test1.dir/build.make CMakeFiles/fss-test1.dir/src/PrimaryGenerator.cc.s
+.PHONY : src/PrimaryGenerator.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -227,12 +275,18 @@ help:
 	@echo "... fss-test1.o"
 	@echo "... fss-test1.i"
 	@echo "... fss-test1.s"
+	@echo "... src/ActionInitialization.o"
+	@echo "... src/ActionInitialization.i"
+	@echo "... src/ActionInitialization.s"
 	@echo "... src/DetectorConstruction.o"
 	@echo "... src/DetectorConstruction.i"
 	@echo "... src/DetectorConstruction.s"
 	@echo "... src/Physicslist.o"
 	@echo "... src/Physicslist.i"
 	@echo "... src/Physicslist.s"
+	@echo "... src/PrimaryGenerator.o"
+	@echo "... src/PrimaryGenerator.i"
+	@echo "... src/PrimaryGenerator.s"
 .PHONY : help
 
 
