@@ -4,7 +4,7 @@ Single detector, Al layer and plastic layer.
 -- Summer Project, 2026, Rice University, Houston TX
 
 
-: VERY USEFUL Commands
+===  VERY USEFUL Commands  ===
 
 1. download the visulization to local computer
 
@@ -12,5 +12,8 @@ scp awanyan@login.expanse.sdsc.edu:/home/awanyan/liang-group-fss/fss-test1/build
 
 2. upload to Rice obelix
 
-scp g4_02.wrl aw128@obelix.rice.edu:/home/aw128/Downloads
+scp <FILE path> aw128@obelix.rice.edu:/home/aw128/Downloads
+
+3. View in FreeWRL
+./freewrl_43m_x64.AppImage <FILE path>
 
