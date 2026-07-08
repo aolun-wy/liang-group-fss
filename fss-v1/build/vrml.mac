@@ -1,0 +1,22 @@
+# THIS VRML PROGRAM INITIALIZE GEANT4,
+# AND SHOOTS 1000 PARTICLES DEFINED IN THE SOURCE FILES
+# WHILE SAVES THE VISUALIZATION IN A FILE
+
+# Initialization of Geant4
+/run/initialize
+
+# enable VRML2FILE mode
+/vis/open VRML2FILE
+
+# settings of VISUALIZATION
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/drawVolume
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+/vis/scene/add/axes
+/vis/scene/add/eventID
+
+# Shoot Beams of Particle
+/tracking/verbose 1
+/run/beamOn 10000
