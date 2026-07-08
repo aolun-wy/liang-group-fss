@@ -59,7 +59,7 @@ int main(int argc, char** argv)
     //UImanager->ApplyCommand("/control/execute visual.mac");  
 
     // 4. Run
-    UImanager->ApplyCommand("/control/execute visual.mac");   
+    UImanager->ApplyCommand("/control/execute run.mac");   
 
     ui->SessionStart(); // will not end session unless you type "exit"
 

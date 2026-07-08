@@ -1,1 +1,24 @@
 ==== Root File Instructions ====
+
+0. Start TBrowser
+new TBrowser
+
+1. Total Hit Map:
+Hits->Draw("fY:fX", "", "colz");
+
+2. Energy per Layer:
+Hits->Draw("DetectorID", "EnergyDep", "hist");
+
+3. Side View:
+Hits->Draw("fY:fZ", "", "colz");
+
+4. Individual Hit Maps:
+
+TCanvas *c1 = new TCanvas("c1", "Beam Spot per Layer", 1200, 800);
+
+c1->Divide(5, 4);
+
+for (int i = 0; i < 19; i++) {
+    c1->cd(i + 1); 
+    Hits->Draw("fY:fX", Form("DetectorID == %d", i), "colz");
+}

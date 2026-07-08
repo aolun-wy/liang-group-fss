@@ -65,7 +65,7 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     };
 
     // Global X/Y size for all plates
-    G4double xySize = 10. * cm;
+    G4double xySize = 20. * mm;
     
     // PLASTIC THICKNESS
     G4double plasticThickness = 500. * um; 

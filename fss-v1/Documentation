@@ -10,7 +10,7 @@ Each box (FSS-A and FSS-B) consists of 19 repeating substructures. Every substru
                     [ Plastic Layer ] - [ Metal Plate ] - [ Plastic Detector ]
 
 
-The Filter Stacks: (10 cm * 10 cm * Thickness) 
+The Filter Stacks: (20 mm * 20 mm * Thickness) 
 === #1. Box FSS-A
     Structure:
         Substructure:   |           |           |
@@ -38,7 +38,7 @@ The Filter Stacks: (10 cm * 10 cm * Thickness)
     Metal 10~11: Tin(Sn)        850, 850 um
     Metal 12~19: Lead(Pb)       1000, 1000, 1000, 1000, 1000, 1000, 3000, 3000 um
 
-Plastic Material: Polystyrene (10 cm * 10 cm * Thickness)
+Plastic Material: Polystyrene (20 mm * 20 mm * Thickness)
 
 World Material: Air (1 m * 1 m * 1 m, Box)
 
