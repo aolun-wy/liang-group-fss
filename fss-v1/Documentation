@@ -7,17 +7,17 @@ but specifics of FSS-B are also listed
 
 Each box (FSS-A and FSS-B) consists of 19 repeating substructures. Every substructure is composed of three components arranged in the following sequence:
 
-                    [ Plastic Layer ] - [ Metal Plate ] - [ Plastic Detector ]
+        [ Plastic Layer ] - [ Metal Plate ] - [ Plastic Detector ]      <--- Gamma Ray
 
 
 The Filter Stacks: (20 mm * 20 mm * Thickness) 
 === #1. Box FSS-A
     Structure:
         Substructure:   |           |           |
+                        |           |           |          /_____
+                        |           |           |          \-----  Gamma Ray
                         |           |           |
-                        |           |           |
-                        |           |           |
-                plastic layer    metal plate    plastic det.
+                plastic layer    metal plate    plastic detector
         Component: 19 substructures
     Metal 1~3: Aluminium(Al)    500, 500, 1500 um
     Metal 4~9: Copper(Cu)       500, 500, 1000, 1000, 1500, 2000 um
@@ -30,7 +30,7 @@ The Filter Stacks: (20 mm * 20 mm * Thickness)
                         |           |           |
                         |           |           |
                         |           |           |
-                plastic layer    metal plate    plastic det.
+                plastic layer    metal plate    plastic detector
         Component: 19 substructures
     Thicknesses of each metal layer:
     Metal 1~3: Aluminium(Al)    500, 500, 1500 um

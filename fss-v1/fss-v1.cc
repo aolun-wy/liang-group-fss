@@ -17,8 +17,8 @@
 // number of argument, and argument vectors (defined as array of strings)
 int main(int argc, char** argv)
 {
-    
-    G4UIExecutive *ui = new G4UIExecutive(argc, argv);
+
+    G4UIExecutive *ui;
 
     // define a RunManager, multi of single thread
     #ifdef G4MULTITHREADED
@@ -41,6 +41,11 @@ int main(int argc, char** argv)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
+    if (argc == 1)
+    {
+        ui = new G4UIExecutive(argc, argv);
+    }
+
     // No Visualization availiable for Expanse SDSC
     G4VisManager *visManager = new G4VisExecutive();
     visManager->Initialize();
@@ -49,19 +54,35 @@ int main(int argc, char** argv)
     // UIManager is a singleton, so no "new"
 
     // Command using .mac file
-    // 1. Visual
-    //UImanager->ApplyCommand("/control/execute vrml.mac");   
 
-    // 2. Default
-    //UImanager->ApplyCommand("/control/execute default.mac");   
+    if (ui)
+    {
+        // 1. Visual
+        //UImanager->ApplyCommand("/control/execute vrml.mac");
+        
+        // 2. Default
+        //UImanager->ApplyCommand("/control/execute default.mac"); 
 
-    // 3. Visual - 2
-    //UImanager->ApplyCommand("/control/execute visual.mac");  
+        // 3. Visual - 2
+        //UImanager->ApplyCommand("/control/execute visual.mac"); 
 
-    // 4. Run
-    UImanager->ApplyCommand("/control/execute run.mac");   
+        // 4. Run
+        UImanager->ApplyCommand("/control/execute run.mac"); 
 
-    ui->SessionStart(); // will not end session unless you type "exit"
+        ui->SessionStart(); // will not end session unless you type "exit"
+
+    }
+ 
+    else
+    {
+        G4String command = "/control/execute ";
+        G4String fileName = argv[1];
+
+        UImanager->ApplyCommand(command + fileName); 
+    }
+  
+
+    
 
 
     return 0;

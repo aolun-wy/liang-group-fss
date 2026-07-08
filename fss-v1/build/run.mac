@@ -2,6 +2,9 @@
 # Run.mac
 # ==============================================================
 
+# Number of Threads
+#/run/numberOfThreads 4
+
 # Initialize Geant4
 /run/initialize
 
