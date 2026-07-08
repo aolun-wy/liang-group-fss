@@ -360,4 +360,12 @@ CMakeFiles/fss-v1.dir/src/ActionInitialization.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ToolsAnalysisManager.icc \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GenericAnalysisManager.icc \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GenericFileManager.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GenericFileManager.icc
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4GenericFileManager.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Run.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Profiler.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Profiler.icc \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/PTL/Globals.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/PTL/Types.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/PTL/Utility.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UnitsTable.icc

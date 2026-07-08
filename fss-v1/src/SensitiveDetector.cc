@@ -49,8 +49,10 @@ G4bool SensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touchHi
     G4VPhysicalVolume *physVol = touchable->GetVolume();
     G4ThreeVector posDetector = physVol->GetTranslation();
 
-    G4cout<< "Detector ID: "<< copyNo << G4endl;
-    G4cout<< "Detector Position: "<< posDetector << G4endl;
+    #ifndef G4MULTTHREADED
+        G4cout<< "Detector ID: "<< copyNo << G4endl;
+        G4cout<< "Detector Position: "<< posDetector << G4endl;
+    #endif
 
    // ===== #3. Track the Energy =====   
 

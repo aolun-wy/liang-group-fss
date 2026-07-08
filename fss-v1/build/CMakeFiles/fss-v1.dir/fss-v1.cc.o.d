@@ -787,4 +787,5 @@ CMakeFiles/fss-v1.dir/fss-v1.cc.o: \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4VPrimaryGenerator.hh \
  /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4ParticleTable.hh \
  /home/awanyan/liang-group-fss/fss-v1/include/RunAction.hh \
- /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UserRunAction.hh
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4UserRunAction.hh \
+ /home/awanyan/geant4/geant4-v11.2.2-install/include/Geant4/G4Run.hh

@@ -81,9 +81,5 @@ int main(int argc, char** argv)
         UImanager->ApplyCommand(command + fileName); 
     }
   
-
-    
-
-
     return 0;
 }
