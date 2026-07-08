@@ -1,0 +1,4 @@
+/home/awanyan/liang-group-fss/fss-v0/build/CMakeFiles/rebuild_cache.dir
+/home/awanyan/liang-group-fss/fss-v0/build/CMakeFiles/edit_cache.dir
+/home/awanyan/liang-group-fss/fss-v0/build/CMakeFiles/FSS_Version0.dir
+/home/awanyan/liang-group-fss/fss-v0/build/CMakeFiles/fss-v0.dir
