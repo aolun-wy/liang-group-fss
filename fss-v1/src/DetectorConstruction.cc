@@ -5,7 +5,7 @@
 //      Size: 1m * 1m * 1m
 //      World Material: AIR
 //      Substructures: 19 layers (Plastic -> Metal -> Plastic Det.)
-//      Size: 10 cm * 10 cm * (Variable Thickness)
+//      Size: 50.8 mm * 50.8 mm * (Variable Thickness) (2 inch)
 //
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -65,10 +65,10 @@ G4VPhysicalVolume *DetectorConstruction::Construct()
     };
 
     // Global X/Y size for all plates
-    G4double xySize = 20. * mm;
+    G4double xySize = 50.8 * mm;
     
     // PLASTIC THICKNESS
-    G4double plasticThickness = 500. * um; 
+    G4double plasticThickness = 1. * mm; 
 
     // Create shared Logical Volumes for the plastics (saves memory & simplifies SD assignment)
     G4Box *solidPlastic = new G4Box("solidPlastic", 0.5 * xySize, 0.5 * xySize, 0.5 * plasticThickness);

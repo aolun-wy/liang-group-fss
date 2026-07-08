@@ -70,9 +70,9 @@ G4bool SensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touchHi
     man->FillNtupleIColumn(1, copyNo); // copy Number, detector No.
     man->FillNtupleDColumn(2, fEnergyDeposited / MeV); // Energy Deposited, in MeV
     // position of Detector, in mm
-    man->FillNtupleDColumn(3, posDetector[0] / mm);
-    man->FillNtupleDColumn(4, posDetector[1] / mm);
-    man->FillNtupleDColumn(5, posDetector[2] / mm);
+    man->FillNtupleDColumn(3, posPhoton[0] / mm);
+    man->FillNtupleDColumn(4, posPhoton[1] / mm);
+    man->FillNtupleDColumn(5, posPhoton[2] / mm);
     man->AddNtupleRow(0);
 
     return true; // Requires return, since it is boolean
