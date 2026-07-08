@@ -1,0 +1,25 @@
+# ==============================================================
+# Visual.mac
+# ==============================================================
+
+# Initialize Geant4
+/run/initialize
+
+# Enable VRML2FILE mode for Expanse SDSC compatibility
+/vis/open VRML2FILE
+
+# Viewer settings
+/vis/viewer/set/viewpointVector 1 1 1
+/vis/drawVolume
+/vis/scene/add/trajectories smooth
+/vis/scene/endOfEventAction accumulate
+
+# Add reference markers
+/vis/scene/add/axes 0 0 0 10 cm
+/vis/scene/add/eventID
+
+# Shooting
+/tracking/verbose 1
+/event/verbose 1
+
+/run/beamOn 1000

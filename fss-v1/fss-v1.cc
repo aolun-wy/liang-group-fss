@@ -50,10 +50,16 @@ int main(int argc, char** argv)
 
     // Command using .mac file
     // 1. Visual
-    UImanager->ApplyCommand("/control/execute default.mac");   
+    //UImanager->ApplyCommand("/control/execute vrml.mac");   
 
     // 2. Default
     //UImanager->ApplyCommand("/control/execute default.mac");   
+
+    // 3. Visual - 2
+    //UImanager->ApplyCommand("/control/execute visual.mac");  
+
+    // 4. Run
+    UImanager->ApplyCommand("/control/execute visual.mac");   
 
     ui->SessionStart(); // will not end session unless you type "exit"
 

@@ -33,7 +33,7 @@ G4bool SensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touchHi
     // on photons in experiments.
     G4Track *track = aStep->GetTrack();
 
-    track->SetTrackStatus(fStopAndKill); // stop tracking when entered the detector
+    //track->SetTrackStatus(fStopAndKill); // stop tracking when entered the detector
 
     G4StepPoint *preStepPoint = aStep->GetPreStepPoint(); // before entering detector
     G4StepPoint *postStepPoint = aStep->GetPostStepPoint(); // after entering detector
@@ -49,6 +49,7 @@ G4bool SensitiveDetector::ProcessHits(G4Step *aStep, G4TouchableHistory *touchHi
     G4VPhysicalVolume *physVol = touchable->GetVolume();
     G4ThreeVector posDetector = physVol->GetTranslation();
 
+    G4cout<< "Detector ID: "<< copyNo << G4endl;
     G4cout<< "Detector Position: "<< posDetector << G4endl;
 
    // ===== #3. Track the Energy =====   
