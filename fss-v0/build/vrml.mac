@@ -18,4 +18,5 @@
 /vis/scene/add/eventID
 
 # Shoot Beams of Particle
-/run/beamOn 1000
+/tracking/verbose 1
+/run/beamOn 10000
